@@ -1,5 +1,5 @@
 # Price Tracker
-A program that accepts a file path, from the command line, for a .txt file containing URLs, extracts product name, current price and availabaility from each URL and writes/updates an Excel workbook, in a path obtained from the command line, with the results. It also generates a log file with info, warnings and errors for each run.
+A program that accepts a file path, from the command line, for a .txt file containing URLs, extracts product name, current price and availabaility from each URL and writes/updates an Excel workbook, in a path obtained from the command line, with the results. It also generates a log file with info, warnings and errors for each run and prints a final summary in the console.
 
 ## Features
 - Scanning product name, current price and availability in URLs from a .txt file selected in the command line by the user.
