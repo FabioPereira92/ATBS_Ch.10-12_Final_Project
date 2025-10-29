@@ -1,9 +1,10 @@
 #! python3
 
 """priceTracker.py - A program that accepts a file path, from the command line, for a .txt
-file containing URLs, extracts product name, current price and availabaility from each
+file containing URLs, extracts product name, current price and availability from each
 URL and writes/updates an Excel workbook, in a path obtained from the command line, with
-the results. It also generates a log file with info, warnings and errors for each run."""
+the results. It also generates a log file with info, warnings and errors for each run and
+prints a final summary to the console."""
 
 import logging, shelve, os, sys, requests, bs4, openpyxl
 from datetime import datetime
