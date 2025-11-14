@@ -27,10 +27,8 @@ A program that accepts a file path, from the command line, for a .txt file conta
 
 ## Tech Stack
 - Python 3.13
-- Standard library (logging, shelve, os, sys, datetime)
-- requests
-- bs4
-- openpyxl
+- Standard library: logging, shelve, os, sys, datetime
+- Third-party libraries: requests, bs4 (BeautifulSoup), openpyxl
 
 ## License
 MIT
